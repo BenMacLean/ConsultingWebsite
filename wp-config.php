@@ -36,8 +36,8 @@ define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-define('WP_HOME', 'https://thawing-atoll-10378.herokuapp.com');
-define('WP_SITEURL', 'https://thawing-atoll-10378.herokuapp.com');
+define('WP_HOME', 'localhost:8888');
+define('WP_SITEURL', 'localhost:8888');
 
 
 /**#@+
