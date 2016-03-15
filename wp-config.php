@@ -17,19 +17,19 @@
  *
  * @package WordPress
  */
-
+//mysql://b5bf9afd87bf98:6f2e4ebc@us-cdbr-iron-east-03.cleardb.net/heroku_d128042b176614f?reconnect=true
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
+define('DB_NAME', 'heroku_7101c9bed1650c0');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'b12b4fd3f1f0cb');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', '955ca6cc');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
