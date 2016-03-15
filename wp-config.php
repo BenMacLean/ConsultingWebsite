@@ -37,6 +37,8 @@ define('DB_CHARSET', 'utf8mb4');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+define( 'WP_SITEURL', 'http://thawing-atoll-10378.herokuapp.com' );
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
