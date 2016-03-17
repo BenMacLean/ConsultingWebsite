@@ -16,6 +16,7 @@ $wp_file_descriptions = array(
 	'index.php' => __( 'Main Index Template' ),
 	'style.css' => __( 'Stylesheet' ),
 	'editor-style.css' => __( 'Visual Editor Stylesheet' ),
+	'ben-theme.css' => __( 'Ben Custom Theme Editor Stylesheet' ),
 	'editor-style-rtl.css' => __( 'Visual Editor RTL Stylesheet' ),
 	'rtl.css' => __( 'RTL Stylesheet' ),
 	'comments.php' => __( 'Comments' ),

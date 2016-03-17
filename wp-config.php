@@ -17,28 +17,25 @@
  *
  * @package WordPress
  */
-//mysql://b5bf9afd87bf98:6f2e4ebc@us-cdbr-iron-east-03.cleardb.net/heroku_d128042b176614f?reconnect=true
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'heroku_7101c9bed1650c0');
+define('DB_NAME', 'i2342675_wp1');
 
 /** MySQL database username */
-define('DB_USER', 'b12b4fd3f1f0cb');
+define('DB_USER', 'i2342675_wp1');
 
 /** MySQL database password */
-define('DB_PASSWORD', '955ca6cc');
+define('DB_PASSWORD', 'Y&1fMzkM^pmzho@HHM*80[.8');
 
 /** MySQL hostname */
-define('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-define('WP_HOME', 'localhost:8888');
-define('WP_SITEURL', 'localhost:8888');
-
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -49,14 +46,26 @@ define('WP_SITEURL', 'localhost:8888');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '!6Y.Y-yX/H|F{8bG|I6?ol.~o+xF|-sceP/Isve&z1&kG|Jle|fxz>-#3yW-.MDu');
-define('SECURE_AUTH_KEY',  '.%i%TRDp#aA9FO{>=7$OlZ<j()s,v!rHe.Gxub6+?jYIrboCfd#!p;&t|yDha^E#');
-define('LOGGED_IN_KEY',    '&V>y,@gR9N0YLA~^_VW#,5bK?(5mO* )d<fQ)YnO0Y1qq#4||W7^F|:ru51{f(&u');
-define('NONCE_KEY',        'br,{I+2C=<g. cC&+YDV6kzi+h=5,Q:zR6MblyhhUSl)NV2EKYV9p/3A/N0_*^;c');
-define('AUTH_SALT',        '8cp7$Kha&s 4U^i~b-vk;8/]nUDwvUh]LJAk>#94Wf$blmlE7=r0Q/EK7v+x_BYl');
-define('SECURE_AUTH_SALT', 'A}$dkwq7ba0%[+5{nEvSOiljvl6enZ 3XWx%&%pqh&@W#vo57;}JS@AIl7H<e2ti');
-define('LOGGED_IN_SALT',   ',P_O|4s@XS-0;N$Q&*R~Mv0I#t*K`-_|GDj97#%]M4V)HKDKD7by[aTYB*LB~hX2');
-define('NONCE_SALT',       '4m_F2)hp)nAoxO;|QA-(eA0fYhQ4R-+|7d=|UOn3,qo/EZu,p28K}ramgMX~KdB-');
+define('AUTH_KEY',         '6NRpouZmxUqhlgt3LFb7v5UnpnQqDF2x8lERwOt0deveMR2PoLPPbzl0wkLzDqFR');
+define('SECURE_AUTH_KEY',  'BsjvIKbnJqa1ts3GEueGTGlHapyxLwXPOKcGisHhXVbIqJloUEnXU6qGxDbO0P3W');
+define('LOGGED_IN_KEY',    'gN7eOASIomSmJaTuLvAyXTDVikEhpNFH3wUCDjMIXl5zcrdDyTEzPxwfoX1ofyve');
+define('NONCE_KEY',        'BZApXMczJ6Xp2r8wY0w7vO2kVxTjVgIU4NN2w0YX9RrNKOt1npy4L2ZOlALoAruF');
+define('AUTH_SALT',        '5sW2vwShFsDQZnUYdYdrisXTlt9X9qz1KUSE7rMvua58gzkLuwKjbr4nLhTuk5CL');
+define('SECURE_AUTH_SALT', '9efOZ0XKGy540zoraRjTlaJeYm8Q517YBZQTcZFKpCMm3qY80AZmudeFsfDXjWad');
+define('LOGGED_IN_SALT',   'H2tQEbYR0TGJtBxHdlrWxbAmPeWuGtEF9LjMO0LQvsxOkj7rlVsSRdQCoSzO1F6P');
+define('NONCE_SALT',       'KleUugVr3VsjGNOrEZnpPfHlPRxMvep35GtOxZjN9GKAxpUt84f6i3W8cpDzWAwn');
+
+/**
+ * Other customizations.
+ */
+define('FS_METHOD','direct');define('FS_CHMOD_DIR',0755);define('FS_CHMOD_FILE',0644);
+define('WP_TEMP_DIR',dirname(__FILE__).'/wp-content/uploads');
+
+/**
+ * Turn off automatic updates since these are managed upstream.
+ */
+define('AUTOMATIC_UPDATER_DISABLED', true);
+
 
 /**#@-*/
 

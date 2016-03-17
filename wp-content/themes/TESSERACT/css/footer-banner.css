@@ -2,6 +2,7 @@
 	padding: 10px 0;
 	margin-top: 0px;
 	border-top: none;
+	display: none;
 	}
 
 #footer-banner {
@@ -12,16 +13,19 @@
 	table-layout: fixed;
 	width: 100%;
 	overflow: hidden;
+	display: none;
 	}
 
 #footer-banner p {
 		line-height: 150%;
 		display: block;
+		display: none;
 	}
 
 
 #footer-banner .site-title {
 	margin: 0;
+	display: none;
 	}
 
 #horizontal-menu-wrap {
@@ -30,6 +34,7 @@
 	vertical-align: middle;
 	position: relative;
 	z-index: 1;
+	display: none;
 	}
 
 #horizontal-menu-wrap > * {
@@ -37,14 +42,17 @@
 	vertical-align: middle;
 	width: 1px;
 	white-space: nowrap;
+	display: none;
 	}
 
 #footer-banner .search-form {
 	margin-top: 1px;
+	display: none;
 	}
 
 #footer-banner .search-field {
 	box-sizing: border-box;
+	display: none;
 	}
 
 #horizontal-menu-before {
@@ -52,37 +60,44 @@
 	margin-right: 4px;
 	border: none;
 	zoom: 1; *display: inline;
+	display: none;
 	}
 
 #horizontal-menu-before.is-menu {
 	border-right: rgba(255, 255, 255, 0.1) solid 1px;
+	display: none;
 	}
 
 #horizontal-menu-wrap.logo #horizontal-menu-before {
 	display: table-cell;
 	width: 1px;
 	white-space: nowrap;
+	display: none;
 	}
 
 #footer-banner .site-logo,
 #footer-banner .site-name {
 	margin: 0;
+	display: none;
 	}
 
 #footer-banner .site-logo a,
 #footer-banner .site-name a {
 	padding: 0;
+	display: none;
 	}
 
 #footer-banner .site-logo a {
 	height: auto;
 	margin: 0;
+	display: none;
 	}
 
 #footer-banner .site-logo img {
 	height: 40px;
 	max-width: inherit;
 	padding: 0;
+	display: none;
 	}
 
 #footer-horizontal-menu	{
@@ -93,10 +108,12 @@
 	line-height: 1;
 	vertical-align: middle;
 	white-space: normal;
+	display: none;
 	}
 
 #footer-horizontal-menu.is-before {
 	padding-left: 12px;
+	display: none;
 	}
 
 #colophon > .menu ul,
@@ -105,6 +122,7 @@
 	list-style-type: none;
 	text-align: left;
 	margin: 0 0 0 0;
+	display: none;
 	}
 
 #colophon > .menu ul li,
@@ -113,51 +131,63 @@
 	display: inline-block;
 	zoom: 1; *display: inline;
 	vertical-align: middle;
+	display: none;
 	}
 
 #colophon > .menu ul li,
 #footer-horizontal-menu ul li,
 .hm-social li {
 	padding: 7px 12px;
+	display: none;
 	}
 
-#footer-horizontal-menu ul li { padding: 0 12px 0 0; }
+#footer-horizontal-menu ul li { padding: 0 12px 0 0;
+display: none; }
 
-#footer-horizontal-menu ul li:first-child { padding-left: 0 }
-#footer-horizontal-menu ul li:last-child { padding-right: 0 }
+#footer-horizontal-menu ul li:first-child { padding-left: 0;
+display: none; }
+#footer-horizontal-menu ul li:last-child { padding-right: 0;
+display: none; }
 
 #footer-horizontal-menu ul li a {
 	line-height: 24px;
 	display: block;
+	display: none;
 	}
 
 .hm-social li,
 .hm-social li a {
 	display: block;
 	height: 24px;
+	display: none;
 	}
 
 .hm-social {
 	display: table;
 	vertical-align: middle;
+	display: none;
 	}
 
 .hm-social > li {
 	display: table-cell;
 	padding: 8px 6px;
 	box-sizing: content-box;
+	display: none;
 	}
 
 .hm-social > li a img {
 	width: 24px;
 	height: 24px;
 	max-width: inherit;
+	display: none;
 	}
 
-.hm-social li:first-child { padding-left: 0; }
+.hm-social li:first-child { padding-left: 0;
+display: none; }
 
 #horizontal-menu-before	.search-form {
 	padding-right: 4px;
+	display: none;
 	}
 
 #footer-banner-right {
@@ -169,17 +199,20 @@
 	position: relative;
 	height: 100%;
 	vertical-align: middle;
+	display: none;
 	}
 
 #footer-banner-right.designer {
 	text-align: right;
 	display: none;
 
+
 	font-size:16px;
 	}
 
 #footer-banner-right.designer a {
 	font-size:16px;
+	display: none;
 	display: none;
 
 	}
@@ -189,11 +222,13 @@
 	table-layout: fixed;
 	height: 100%;
 	width: 100%;
+	display: none;
 	}
 
 #footer-banner-right > .table > .table-cell {
 	display: table-cell;
 	vertical-align: middle;
+	display: none;
 	}
 
 @media screen and (max-width: 960px) {
@@ -207,10 +242,13 @@
 
 	#footer-banner {
 		padding: 0 20px 5px;
+		display: none;
 		}
 
-	#horizontal-menu-wrap { padding-left: 0; }
-	#footer-banner-right { padding-right: 0; }
+	#horizontal-menu-wrap { padding-left: 0;
+	display: none;}
+	#footer-banner-right { padding-right: 0;
+	display: none;}
 
 	#footer-banner,
 	#horizontal-menu-wrap,
@@ -218,10 +256,12 @@
 		float: none;
 		width: 100%!important;
 		display: block!important;
+		display: none;
 	}
 
 	#footer-banner-right {
 		text-align: center;
+		display: none;
 	}
 
 	#horizontal-menu-before,
@@ -232,6 +272,7 @@
 		width: 100%;
 		padding: 0;
 		padding-left: 0;
+		display: none;
 	}
 
 	#horizontal-menu-before {
@@ -239,31 +280,37 @@
 		padding-right: 0;
 		border: none!important;
 		text-align: center;
+		display: none;
 		}
 
 	#footer-banner .site-branding {
 		display: block;
+		display: none;
 		}
 
 	#footer-banner .site-title {
 		text-align: center;
 		padding: 0;
 		margin: 0;
+		display: none;
 		}
 
 	#footer-banner .site-logo a,
 	#footer-banner .site-logo img {
 		height: auto;
 		padding: 0;
+		display: none;
 		}
 
 	#footer-banner .site-logo h1 {
 		text-align: center;
+		display: none;
 		}
 
 	#footer-banner .site-logo img {
 		max-width: 100%;
 		margin: auto;
+		display: none;
 		}
 
 	#footer-horizontal-menu > div {
@@ -271,6 +318,7 @@
 		table-layout: fixed;
 		width: 100%;
 		margin-top: 40px;
+		display: none;
 		}
 
 	#horizontal-menu-wrap.nothing #footer-horizontal-menu > div { margin-top: 0; }
@@ -279,6 +327,7 @@
 	#footer-horizontal-menu ul {
 		width: 100%;
 		text-align: center;
+		display: none;
 		}
 
 	#horizontal-menu-before ul li,
@@ -286,6 +335,7 @@
 		display: inline-block;
 		zoom: 1; *display: inline;
 		float: none;
+		display: none;
 		}
 
 	#footer-horizontal-menu ul li { padding: 0 12px; }
@@ -294,6 +344,7 @@
 		display: block;
 		width: 240px;
 		margin: auto;
+		display: none;
 	}
 
 	#horizontal-menu-before .search-field {
@@ -311,10 +362,12 @@
 		line-height: 24px;
 		position: relative;
 		right: 0;
+		display: none;
 	}
 
 	#footer-banner-right > .table > .table-cell {
 		text-align: center;
+		display: none;
 		}
 
 }

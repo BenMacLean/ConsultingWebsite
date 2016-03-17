@@ -1,6 +1,12 @@
 /* WIDHTS */
 
-.site-header { background-color: rgba(100, 0, 0, 0.2); z-index: 2; }
+.avatar-circle{
+  border-radius: 50% !important;
+
+}
+
+
+.site-header { background-color: rgba(0, 0, 0, 0.2); z-index: 2; }
 
 .home.transparent-header .site-header {
 	position: absolute;
