@@ -1,3 +1,9 @@
+
+
+
+
+
+
 .sidr {
 	display:none;
 	position:absolute;
@@ -140,13 +146,13 @@
 	font-weight: 300;
 	line-height: 1.4em;
 	}
-	
+
 #sidr-id-header-button-container-inner button {
 	line-height: 1.4em;
 	margin: 0.8125em 0;
 	background: rgba(0, 0, 0, .15);
-	padding: 0.8125em;	
-	}	
+	padding: 0.8125em;
+	}
 
 #sidr-id-header-button-container-inner > div:first-child > div > a,
 #sidr-id-header-button-container-inner > a:first-child { padding-top: 0; }
